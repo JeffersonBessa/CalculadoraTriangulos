@@ -1,0 +1,1416 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5999282600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo calcular os lados de um triangulo",
+            "match": {
+              "location": "CalcularTriangulosSteps.queDesejoCalcularOsLadosDeUmTriangulo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "CT001_Deve calcular triangulo equilatero",
+        "description": "",
+        "id": "calculadora-de-triangulos;ct001-deve-calcular-triangulo-equilatero;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 406834400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 648799300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 886549800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "informo os tres valores iguais 3, 3 e 3 e calculo o triangulo formado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 31
+                },
+                {
+                  "val": "3",
+                  "offset": 34
+                },
+                {
+                  "val": "3",
+                  "offset": 38
+                }
+              ],
+              "location": "CalcularTriangulosSteps.informoOsTresValoresIguaisEECalculoOTrianguloFormado(String,String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 48075400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "devo visualizar um triangulo \"Triângulo Equilátero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Triângulo Equilátero",
+                  "offset": 30
+                }
+              ],
+              "location": "CalcularTriangulosSteps.devoVisualizarUmTriangulo(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllCenarios"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4315222200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo calcular os lados de um triangulo",
+            "match": {
+              "location": "CalcularTriangulosSteps.queDesejoCalcularOsLadosDeUmTriangulo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "CT001_Deve calcular triangulo equilatero",
+        "description": "",
+        "id": "calculadora-de-triangulos;ct001-deve-calcular-triangulo-equilatero;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 388696100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 656175700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 819811900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "informo os tres valores iguais 5, 5 e 5 e calculo o triangulo formado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 31
+                },
+                {
+                  "val": "5",
+                  "offset": 34
+                },
+                {
+                  "val": "5",
+                  "offset": 38
+                }
+              ],
+              "location": "CalcularTriangulosSteps.informoOsTresValoresIguaisEECalculoOTrianguloFormado(String,String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 46833200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "devo visualizar um triangulo \"Triângulo Equilátero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Triângulo Equilátero",
+                  "offset": 30
+                }
+              ],
+              "location": "CalcularTriangulosSteps.devoVisualizarUmTriangulo(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllCenarios"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4425035300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo calcular os lados de um triangulo",
+            "match": {
+              "location": "CalcularTriangulosSteps.queDesejoCalcularOsLadosDeUmTriangulo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "CT001_Deve calcular triangulo equilatero",
+        "description": "",
+        "id": "calculadora-de-triangulos;ct001-deve-calcular-triangulo-equilatero;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 378847100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 656117200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 821985200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "informo os tres valores iguais 10, 10 e 10 e calculo o triangulo formado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 31
+                },
+                {
+                  "val": "10",
+                  "offset": 35
+                },
+                {
+                  "val": "10",
+                  "offset": 40
+                }
+              ],
+              "location": "CalcularTriangulosSteps.informoOsTresValoresIguaisEECalculoOTrianguloFormado(String,String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 53517700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "devo visualizar um triangulo \"Triângulo Equilátero\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Triângulo Equilátero",
+                  "offset": 30
+                }
+              ],
+              "location": "CalcularTriangulosSteps.devoVisualizarUmTriangulo(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllCenarios"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4307906800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo calcular os lados de um triangulo",
+            "match": {
+              "location": "CalcularTriangulosSteps.queDesejoCalcularOsLadosDeUmTriangulo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "CT002_Deve calcular triangulo escaleno",
+        "description": "",
+        "id": "calculadora-de-triangulos;ct002-deve-calcular-triangulo-escaleno;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 387780800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1153831400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 874823100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "informo os tres valores diferentes 1, 2 e 3 e calculo o triangulo formado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 35
+                },
+                {
+                  "val": "2",
+                  "offset": 38
+                },
+                {
+                  "val": "3",
+                  "offset": 42
+                }
+              ],
+              "location": "CalcularTriangulosSteps.informoOsTresValoresDiferentesEEeCalculoOTrianguloFormado(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 48891800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "devo visualizar um triangulo \"Triângulo Escaleno\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Triângulo Escaleno",
+                  "offset": 30
+                }
+              ],
+              "location": "CalcularTriangulosSteps.devoVisualizarUmTriangulo(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllCenarios"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4287272100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo calcular os lados de um triangulo",
+            "match": {
+              "location": "CalcularTriangulosSteps.queDesejoCalcularOsLadosDeUmTriangulo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "CT002_Deve calcular triangulo escaleno",
+        "description": "",
+        "id": "calculadora-de-triangulos;ct002-deve-calcular-triangulo-escaleno;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 356965400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 652014000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 958947400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "informo os tres valores diferentes 3, 7 e 8 e calculo o triangulo formado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 35
+                },
+                {
+                  "val": "7",
+                  "offset": 38
+                },
+                {
+                  "val": "8",
+                  "offset": 42
+                }
+              ],
+              "location": "CalcularTriangulosSteps.informoOsTresValoresDiferentesEEeCalculoOTrianguloFormado(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 48528200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "devo visualizar um triangulo \"Triângulo Escaleno\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Triângulo Escaleno",
+                  "offset": 30
+                }
+              ],
+              "location": "CalcularTriangulosSteps.devoVisualizarUmTriangulo(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllCenarios"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4270740300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo calcular os lados de um triangulo",
+            "match": {
+              "location": "CalcularTriangulosSteps.queDesejoCalcularOsLadosDeUmTriangulo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "CT002_Deve calcular triangulo escaleno",
+        "description": "",
+        "id": "calculadora-de-triangulos;ct002-deve-calcular-triangulo-escaleno;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 381213100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 648107700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 805566800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "informo os tres valores diferentes 5, 9 e 11 e calculo o triangulo formado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 35
+                },
+                {
+                  "val": "9",
+                  "offset": 38
+                },
+                {
+                  "val": "11",
+                  "offset": 42
+                }
+              ],
+              "location": "CalcularTriangulosSteps.informoOsTresValoresDiferentesEEeCalculoOTrianguloFormado(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 49988600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "devo visualizar um triangulo \"Triângulo Escaleno\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Triângulo Escaleno",
+                  "offset": 30
+                }
+              ],
+              "location": "CalcularTriangulosSteps.devoVisualizarUmTriangulo(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllCenarios"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4288625500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo calcular os lados de um triangulo",
+            "match": {
+              "location": "CalcularTriangulosSteps.queDesejoCalcularOsLadosDeUmTriangulo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "CT003_Deve calcular triangulo isosceles",
+        "description": "",
+        "id": "calculadora-de-triangulos;ct003-deve-calcular-triangulo-isosceles;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 360731600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 669865000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 846929800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "informo dois valores iguais e um valor diferente 1, 1 e 3 e calculo o triangulo formado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 49
+                },
+                {
+                  "val": "1",
+                  "offset": 52
+                },
+                {
+                  "val": "3",
+                  "offset": 56
+                }
+              ],
+              "location": "CalcularTriangulosSteps.informoDoisValoresIguaisEUmValorDiferenteEECalculoOTrianguloFormado(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 48876000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "devo visualizar um triangulo \"Triângulo Isósceles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Triângulo Isósceles",
+                  "offset": 30
+                }
+              ],
+              "location": "CalcularTriangulosSteps.devoVisualizarUmTriangulo(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllCenarios"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4453548900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo calcular os lados de um triangulo",
+            "match": {
+              "location": "CalcularTriangulosSteps.queDesejoCalcularOsLadosDeUmTriangulo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "CT003_Deve calcular triangulo isosceles",
+        "description": "",
+        "id": "calculadora-de-triangulos;ct003-deve-calcular-triangulo-isosceles;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 357915800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 660259900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 872971100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "informo dois valores iguais e um valor diferente 5, 5 e 7 e calculo o triangulo formado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 49
+                },
+                {
+                  "val": "5",
+                  "offset": 52
+                },
+                {
+                  "val": "7",
+                  "offset": 56
+                }
+              ],
+              "location": "CalcularTriangulosSteps.informoDoisValoresIguaisEUmValorDiferenteEECalculoOTrianguloFormado(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 47964000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "devo visualizar um triangulo \"Triângulo Isósceles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Triângulo Isósceles",
+                  "offset": 30
+                }
+              ],
+              "location": "CalcularTriangulosSteps.devoVisualizarUmTriangulo(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllCenarios"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4648258100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo calcular os lados de um triangulo",
+            "match": {
+              "location": "CalcularTriangulosSteps.queDesejoCalcularOsLadosDeUmTriangulo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 43,
+        "name": "CT003_Deve calcular triangulo isosceles",
+        "description": "",
+        "id": "calculadora-de-triangulos;ct003-deve-calcular-triangulo-isosceles;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 347456400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1059673100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 890601700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "informo dois valores iguais e um valor diferente 7, 7 e 9 e calculo o triangulo formado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 49
+                },
+                {
+                  "val": "7",
+                  "offset": 52
+                },
+                {
+                  "val": "9",
+                  "offset": 56
+                }
+              ],
+              "location": "CalcularTriangulosSteps.informoDoisValoresIguaisEUmValorDiferenteEECalculoOTrianguloFormado(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 48670600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "devo visualizar um triangulo \"Triângulo Isósceles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Triângulo Isósceles",
+                  "offset": 30
+                }
+              ],
+              "location": "CalcularTriangulosSteps.devoVisualizarUmTriangulo(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllCenarios"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4308469300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo calcular os lados de um triangulo",
+            "match": {
+              "location": "CalcularTriangulosSteps.queDesejoCalcularOsLadosDeUmTriangulo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "CT004_Deve validar erro no calculo informando apenas dois valores",
+        "description": "",
+        "id": "calculadora-de-triangulos;ct004-deve-validar-erro-no-calculo-informando-apenas-dois-valores;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 357143800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 658353500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 798114400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "informo apenas dois valores nao informando o terceiro valor 1, 2 e \" \" e calculo o triangulo formado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 60
+                },
+                {
+                  "val": "2",
+                  "offset": 63
+                },
+                {
+                  "val": " ",
+                  "offset": 68
+                }
+              ],
+              "location": "CalcularTriangulosSteps.informoApenasDoisValoresNaoInformandoOTerceiroValorEECalculoOTrianguloFormado(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 48937500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "devo visualizar mensagem de erro \"Preencha todos os lados\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Preencha todos os lados",
+                  "offset": 34
+                }
+              ],
+              "location": "CalcularTriangulosSteps.devoVisualizarMensagemDeErro(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllCenarios"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4146243600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo calcular os lados de um triangulo",
+            "match": {
+              "location": "CalcularTriangulosSteps.queDesejoCalcularOsLadosDeUmTriangulo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 61,
+        "name": "CT005_Deve validar erro no calculo nao informando nenhum valor",
+        "description": "",
+        "id": "calculadora-de-triangulos;ct005-deve-validar-erro-no-calculo-nao-informando-nenhum-valor;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 335718000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 655810200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 408067600,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "nao informo nenhum valor e calculo o triangulo formado",
+            "match": {
+              "location": "CalcularTriangulosSteps.naoInformoNenhumValorECalculoOTrianguloFormado()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 50728800,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "devo visualizar mensagem de erro \"Preencha todos os lados\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Preencha todos os lados",
+                  "offset": 34
+                }
+              ],
+              "location": "CalcularTriangulosSteps.devoVisualizarMensagemDeErro(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllCenarios"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4247283800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo calcular os lados de um triangulo",
+            "match": {
+              "location": "CalcularTriangulosSteps.queDesejoCalcularOsLadosDeUmTriangulo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 70,
+        "name": "CT006_Deve validar erro no calculo informando caracteres",
+        "description": "",
+        "id": "calculadora-de-triangulos;ct006-deve-validar-erro-no-calculo-informando-caracteres;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 649740300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 652053500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 408302000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "informo caracteres \"e\", \"e\" e \"e\" e calculo o triangulo formado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e",
+                  "offset": 20
+                },
+                {
+                  "val": "e",
+                  "offset": 25
+                },
+                {
+                  "val": "e",
+                  "offset": 31
+                }
+              ],
+              "location": "CalcularTriangulosSteps.informoCaracteresEECalculoOTrianguloFormado(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 135600,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "devo visualizar popup com  mensagem de erro \"Insira um número.\" valor nao e numero",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Insira um número.",
+                  "offset": 45
+                }
+              ],
+              "location": "CalcularTriangulosSteps.devoVisualizarPopupComMensagemDeErroValorNaoENumero(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllCenarios"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4427172300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que desejo calcular os lados de um triangulo",
+            "match": {
+              "location": "CalcularTriangulosSteps.queDesejoCalcularOsLadosDeUmTriangulo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 79,
+        "name": "CT007_Deve validar erro no calculo informando valor decimal",
+        "description": "",
+        "id": "calculadora-de-triangulos;ct007-deve-validar-erro-no-calculo-informando-valor-decimal;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 383907300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 661495500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTriangulosSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 329629000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "informo valor decimal \"1.5\", \"1\" e \"1\" e calculo o triangulo formado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1.5",
+                  "offset": 23
+                },
+                {
+                  "val": "1",
+                  "offset": 30
+                },
+                {
+                  "val": "1",
+                  "offset": 36
+                }
+              ],
+              "location": "CalcularTriangulosSteps.informoValorDecimalEECalculoOTrianguloFormado(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 57800,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "devo visualizar popup com  mensagem de erro \"Insira um valor válido. Os dois valores válidos mais próximos são 1 e 2.\" valor nao e inteiro",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Insira um valor válido. Os dois valores válidos mais próximos são 1 e 2.",
+                  "offset": 45
+                }
+              ],
+              "location": "CalcularTriangulosSteps.devoVisualizarPopupComMensagemDeErroValorNaoEInteiro(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllCenarios"
+          }
+        ]
+      }
+    ],
+    "name": "Calculadora de Triangulos",
+    "description": "\r\nComo um usuário \r\nGostaria de informar diferentes valores para os tres lados de um triangulo\r\nPara que eu possa calcular o tipo de triangulo formado",
+    "id": "calculadora-de-triangulos",
+    "keyword": "Funcionalidade",
+    "uri": "calcular_triangulos.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@AllCenarios"
+      }
+    ]
+  }
+]
